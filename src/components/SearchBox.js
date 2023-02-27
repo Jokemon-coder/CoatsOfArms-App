@@ -54,7 +54,8 @@ function SearchBox ({placeHolder}) {
         setFilteredCoas("");
         searchInput.blur();
 
-        console.log(namesData.sort(function (a, b) {
+        //Function used during testing
+        /*console.log(namesData.sort(function (a, b) {
             if (a.name < b.name) {
               return -1;
             }
@@ -62,7 +63,7 @@ function SearchBox ({placeHolder}) {
               return 1;
             }
             return 0;
-          }));
+          }));*/
         
         }
 
@@ -106,7 +107,6 @@ function SearchBox ({placeHolder}) {
             var searchedCoa = document.getElementById(namesData.indexOf(coa));
             var searchedCoaChild = searchedCoa.firstElementChild;
             var searchedCoaImg = searchedCoaChild.firstElementChild;
-            console.log(searchedCoaImg);
             searchedCoa.scrollIntoView();
             searchedCoaImg.style.border = ""; 
 
