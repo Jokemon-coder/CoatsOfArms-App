@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import coaArray from './components/dataStuff/coaData';
 
 export {default as Header} from './components/Header.js';
 export {default as SearchBox} from './components/SearchBox.js';
