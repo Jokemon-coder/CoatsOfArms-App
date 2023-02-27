@@ -15,7 +15,6 @@ function ArrayOfCoa () {
         className = "VaakunaImg"
         key={coaArray1.indexOf(coa)}
         id={coaArray1.indexOf(coa)}
-        name={""}
         /*customtag = customtag.replace("http://localhost:3000/images/coatsofarms/", ""),
         customtag = customtag.replace("_COA.png", ""),
         customtag = decodeURI(customtag)]*/
