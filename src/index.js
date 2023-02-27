@@ -3,6 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import coaArray from './components/dataStuff/coaData';
+
+export {default as Header} from './components/Header.js';
+export {default as SearchBox} from './components/SearchBox.js';
+export {default as CoatsOfArmsGallery} from './components/CoatsOfArmsGallery.js';
+export {default as SortCoatsOfArms} from './components/SortCOA.js';
+export {default as Footer} from './components/Footer.js';
+export {default as namesData} from "./components/dataStuff/nameData.json";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -1,24 +1,36 @@
-import logo from './logo.svg';
+import './index.css';
 import './App.css';
+import  React,   {useState}    from   "react";
+import {Header} from './index.js';
+import {SearchBox} from './index.js';
+import {CoatsOfArmsGallery} from './index.js';
+import {Footer} from './index.js';
+import {namesData} from './index.js';
+
+
 
 function App() {
+    
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+    <div id='PageDiv'>
+      <header>
+        <Header changedLanguage/>
       </header>
+      <main id='MainContent'>
+      <section id='SearchElements'>
+       <SearchBox placeHolder={"Hae..."} coas={namesData}/>
+      </section>
+      <section>
+        <CoatsOfArmsGallery/>
+      </section>
+      </main>
+      <div style={{clear: "both"}}></div>
+      <footer>
+        <Footer/>
+      </footer>
     </div>
+
   );
 }
 
