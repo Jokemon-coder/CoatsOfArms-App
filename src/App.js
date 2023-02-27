@@ -1,6 +1,5 @@
 import './index.css';
 import './App.css';
-import  React,   {useState}    from   "react";
 import {Header} from './index.js';
 import {SearchBox} from './index.js';
 import {CoatsOfArmsGallery} from './index.js';
