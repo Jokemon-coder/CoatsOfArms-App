@@ -11,6 +11,7 @@ in a separate page. It's also designed to be responsive and account for many dif
 - JavaScript
 
 It's being deployed with Github Pages and you can visit it here: 
+
 https://jokemon-coder.github.io/CoatsOfArms-App/
 
 ## Functionality and features
