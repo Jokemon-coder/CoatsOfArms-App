@@ -10,8 +10,8 @@ in a separate page. It's also designed to be responsive and account for many dif
 - CSS
 - JavaScript
 
-It's being hosted with Github Pages and you can visit it here: 
-
+It's being deployed with Github Pages and you can visit it here: 
+https://jokemon-coder.github.io/CoatsOfArms-App/
 
 ## Functionality and features
 
