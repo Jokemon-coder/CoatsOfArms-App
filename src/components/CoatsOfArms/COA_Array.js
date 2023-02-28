@@ -15,13 +15,35 @@ function ArrayOfCoa () {
         className = "VaakunaImg"
         key={coaArray1.indexOf(coa)}
         id={coaArray1.indexOf(coa)}
-        /*customtag = customtag.replace("http://localhost:3000/images/coatsofarms/", ""),
-        customtag = customtag.replace("_COA.png", ""),
-        customtag = decodeURI(customtag)]*/
-        onLoad={(coa) => { //Remove preset border stylings on load
-            RemoveMouseHoverEffect(coa);
-            //MakeName(coa);
+
+        onLoad={() => {
+            //Go through all in coaArray1 and give them an alt that is their name through their src. 
+            for (let index = 0; index < coaArray1.length; index++) {
+                var coaA = document.getElementById(index);
+                var img = coaA.children.item(Image).children;
+                var imgSrc = img.item(0).src;
+                var imgConvert = String(imgSrc);
+                
+            //If it contains the encrypted umlauts, turns them into their actual characters
+                if(imgConvert.includes("%C3%84") === true)
+                {
+                    imgConvert = imgConvert.replace("%C3%84", "Ä");
+                }
+
+                if(imgConvert.includes("%C3%A4") === true)
+                {
+                    imgConvert = imgConvert.replace("%C3%A4", "ä");
+                }
+
+                if(imgConvert.includes("%C3%B6") === true)
+                {
+                    imgConvert = imgConvert.replace("%C3%B6", "ö"); 
+                }
+                //Assign the alt with src string by splitting it apart at the end so that only the name of the coat of arms remains.
+                img.item(0).setAttribute("alt", imgConvert.split('/').pop().split('_')[0]);
+            }
         }}
+
         //MouseOver and MouseOut functions to show and remove border from coats of arms
         onMouseOver={(coa) => { 
             MouseHoverEffect(coa);
@@ -39,11 +61,12 @@ function ArrayOfCoa () {
     )));
 
     function MouseHoverEffect(element){
-        element.target.style.border = "";
+        element.target.classList.add("ImgBorder");
+
     };
 
     function RemoveMouseHoverEffect(element) {
-        element.target.style.border = "none";
+        element.target.classList.remove("ImgBorder");
 
     };
 

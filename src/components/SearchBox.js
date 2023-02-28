@@ -101,14 +101,14 @@ function SearchBox ({placeHolder}) {
 
         onClick={() => {    
             /*When the DropdownNames results are clicked, 
-            go to the corresponding coa in the gallery and set it's img to have a border.
+            go to the corresponding coa in the gallery and set it's img to have a border via a new class.
             The same border is used when hovering over the coa. 
             */      
             var searchedCoa = document.getElementById(namesData.indexOf(coa));
             var searchedCoaChild = searchedCoa.firstElementChild;
             var searchedCoaImg = searchedCoaChild.firstElementChild;
             searchedCoa.scrollIntoView();
-            searchedCoaImg.style.border = ""; 
+            searchedCoaImg.classList.add("ImgBorder"); 
 
             }
         }

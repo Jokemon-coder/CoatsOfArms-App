@@ -243,8 +243,11 @@ footer p {
 
   .VaakunaImg img{
     width: 40px;
-    border: solid 1px #FFFFFF;
     
+  }
+
+  .ImgBorder {
+    border: solid 1px #FFFFFF;
   }
 
   #VaakunaGallery {
@@ -284,8 +287,11 @@ footer p {
   /*Image gallery responsive styling*/
   .VaakunaImg img {
     width: 55px;
-    border: solid 3px #FFFFFF;
     
+  }
+
+  .ImgBorder {
+    border: solid 3px #FFFFFF;
   }
 
   #SearchBar, .VaakunaName {
@@ -317,8 +323,11 @@ footer p {
   /*Image gallery responsive styling*/
   .VaakunaImg img {
     width: 70px;
-    border: solid 2px #FFFFFF;
     
+  }
+
+  .ImgBorder {
+    border: solid 2px #FFFFFF;
   }
 
   #SearchBar, .VaakunaName {
@@ -355,9 +364,11 @@ footer p {
   /*Image gallery responsive styling*/
   .VaakunaImg img {
     width: 80px;
-    border: solid 3px #FFFFFF;
 
-    
+  }
+
+  .ImgBorder {
+    border: solid 3px #FFFFFF;
   }
 
   #VaakunaGallery {
@@ -409,9 +420,11 @@ footer p {
   /*Image gallery responsive styling*/
   .VaakunaImg img {
     width: 90px;
-    border: solid 4px #FFFFFF;
 
-    
+  }
+
+  .ImgBorder {
+    border: solid 4px #FFFFFF;
   }
 
   #VaakunaGallery {
