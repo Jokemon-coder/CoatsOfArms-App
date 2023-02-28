@@ -288,25 +288,6 @@ footer p {
     
   }
 
-  /*
-  #VaakunaGallery {
-    max-width: 70%;
-    float: left;
-    margin-left: 5px;
-    
-  }*/
-
-  /*Searchbar responsive styling*/
-  /*#SearchElements {
-    float: right;
-  }*/
-  
-  /*#SearchBox {
-    border-width: 5px;
-    height: auto;
-    margin: 0px 5px 0px 5px;
-  }*/
-
   #SearchBar, .VaakunaName {
     width: 92%;
     height: 30px;
@@ -315,17 +296,6 @@ footer p {
   #SearcButton {
     width: fit-content;
   }
-
-  /*
-  #SearchButton {
-    height: 20px;
-    width: 20px;
-  
-  }
-  
-  footer p {
-    font-size: 20px;
-  }*/
 
 }
 
@@ -350,36 +320,6 @@ footer p {
     border: solid 2px #FFFFFF;
     
   }
-  /*
-  #VaakunaGallery {
-    max-width: 74%;
-    float: left;
-    margin-left: 5px;
-  }
-
-  /*Searchbar responsive styling*/
-
-  /*#SearchElements {
-    float: right;
-    max-width: 19%;
-  }
-
-  #SearchBox {
-    border-width: 5px;
-    height: auto;
-    margin: 0px 5px 0px 5px;
-  }
-
-  #SearchBar {
-    width: 70%;
-    height: 20px;
-  }
-  
-  #SearchButton {
-    height: 20px;
-    width: 20px;
-  
-  }*/
 
   #SearchBar, .VaakunaName {
     width: 94%;
