@@ -29,3 +29,7 @@ thought it should look and function. The functionality on the page is as follows
 - Responsive design to accommodate different screens and their dimensions 
 
 All of these I considered in my initial pre-development planning and all of them were implemented in a way that coincide with my initial writings from the planning phase.
+
+### Known bugs on release
+
+- The search bar button does not fire off focus to the search bar itself on first click due to "null". Gives an error into the console. Works fine after the first click however. 
