@@ -14,6 +14,8 @@ It's being deployed with Github Pages and you can visit it here:
 
 https://jokemon-coder.github.io/CoatsOfArms-App/
 
+Do note that at the moment it is quite slow on first launch as it loads everything in. I am going to try and optimize it more in the future. I am publishing it now in this state so it can at least be viewed in it's intended final look and funcionality.
+
 ## Functionality and features
 
 The initial plan was to create an app using React that showcases the Finnish coats of arms. I believe I fulfilled my vision for the finished application exactly as I had
