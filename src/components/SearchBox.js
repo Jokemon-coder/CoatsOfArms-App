@@ -5,7 +5,7 @@ function SearchBox ({placeHolder}) {
     //Set up the states to be used for the search button
     const searchIcon = "./images/searchimg/searchicon.png";
     const clearIcon = "./images/searchimg/clearicon.png";
-    var searchInput = document.getElementById("SearchBar");
+    const searchInput = document.getElementById("SearchBar");
     const [buttonIcon, setButtonIcon] = useState([
         searchIcon
     ]);
