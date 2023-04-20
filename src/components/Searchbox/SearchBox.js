@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { namesData } from "..";
+import { namesData } from "../..";
+import "./SearchBox.css";
 function SearchBox ({placeHolder}) {
    
     //Set up the states to be used for the search button
@@ -114,13 +115,13 @@ function SearchBox ({placeHolder}) {
         }
 
         //Change background colours on mouseOver and Out
-        onMouseOver={(coa) => { 
+        /*onMouseOver={(coa) => { 
             coa.target.style.background = "#DEDEDE";
         }}
 
         onMouseOut={(coa) => {
             coa.target.style.background = "none";
-        }}
+        }}*/
         >
             {coa.name} 
         </p>

@@ -1,0 +1,141 @@
+#SortingBox {
+    display: flex;
+    position: relative;
+    width: 100%;
+  
+  }
+  
+  #SortingList {
+    position: relative;
+    width: fit-content;
+    text-align: center;
+    padding: 0;
+    border: #FFFFFF;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 5px;
+  
+  }
+  
+  #sortItem {
+    color: #FFFFFF;
+    display: inline-block;
+    list-style: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold
+  }
+
+  #VaakunaGallery {
+    overflow: hidden;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    max-width: 87.5%;
+    align-self: center;
+    text-align: center;
+    padding: 0px 7.5px 7.5px 7.5px;
+    background-color:rgb(1, 50, 32, .7);
+    border-radius: 20px;
+    
+  }
+
+  .VaakunaImg a { 
+    display: inline-block;
+  }
+  
+  .VaakunaImg {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    margin: 2px;
+    height: auto;
+    border: none;
+  }
+  
+  .SearchBorder {
+    border: solid 1px #FFFFFF;
+  }
+  
+  #COAArray {
+    overflow: hidden;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: auto;
+    justify-content: space-evenly;
+    
+  }
+
+  @media only screen and (max-width: 600px) {
+    .VaakunaImg img{
+      width: 40px;
+      
+    }
+  
+    .ImgBorder {
+      border: solid 1px #FFFFFF;
+    }
+  
+    #VaakunaGallery {
+      max-width: 87.5%;
+    }
+  }
+
+  @media only screen and (min-width: 600px) { 
+    .VaakunaImg img {
+      width: 55px;
+      
+    }
+  
+    .ImgBorder {
+      border: solid 3px #FFFFFF;
+    }
+  }
+
+  @media only screen and (min-width: 740px) {
+    .VaakunaImg img {
+      width: 70px;
+      
+    }
+  
+    .ImgBorder {
+      border: solid 2px #FFFFFF;
+    }
+  }
+
+  @media only screen and (min-width: 990px) { 
+    .VaakunaImg img {
+      width: 80px;
+  
+    }
+  
+    .ImgBorder {
+      border: solid 3px #FFFFFF;
+    }
+  
+    #VaakunaGallery {
+      max-width: 77%;
+      float: left;
+      margin-left: 5px;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .VaakunaImg img {
+      width: 90px;
+  
+    }
+  
+    .ImgBorder {
+      border: solid 4px #FFFFFF;
+    }
+  
+    #VaakunaGallery {
+      max-width: 82.5%;
+      float: left;
+      margin-left: 5px;
+    }
+  }

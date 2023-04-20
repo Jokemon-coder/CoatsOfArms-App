@@ -1,0 +1,32 @@
+footer {
+    width: 100%;
+    position: absolute;
+    margin-bottom: 0;
+    background-color: #013220;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 15px;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+  }
+
+  @media only screen and (min-width: 740px) {
+    footer p {
+      font-size: 22.5px;
+    }
+  }
+
+  @media only screen and (min-width: 990px) { 
+    footer p {
+      font-size: 25px;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    footer p {
+      font-size: 27.5px;
+    }
+  }

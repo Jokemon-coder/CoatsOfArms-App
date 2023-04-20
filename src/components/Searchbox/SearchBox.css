@@ -1,0 +1,161 @@
+#SearchBox{
+    background-color: #FFFFFF;
+    border-style: solid;
+    margin: 0 auto;
+    border-width: 5px;
+    border-color: #013220;
+    border-radius: 20px;
+    width: 90%;
+    padding: 5px;
+    text-align: left;
+  }
+  
+  #SearchBar {
+    position: relative;
+    display: inline-block;
+  
+    height: 30px;
+    border: none;
+    vertical-align: middle;
+    margin: 0 auto;
+  }
+  
+  #SearchButton {
+    display: inline-block;
+    position: relative;
+  
+    height: auto;
+    padding: 2px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    vertical-align: middle;
+  
+  }
+  
+  #SearchButton img {
+    height: 20px;
+    width: 20px;
+  }
+  
+  #DropdownNames {
+    display: inline-block;
+    flex-direction: column;
+    width: inherit;
+    margin-bottom: 4px;
+    padding: 3px;
+    background-color: #FFFFFF;
+    width: 90%;
+    height: 150px;
+    overflow: hidden;
+    overflow-y: auto;
+    text-align: left;
+  
+  
+  
+  
+  }
+  
+  #DropdownNames::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .VaakunaName {
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+    padding: 3px;
+    margin: 5px 0px 5px 0px;
+    text-decoration: none;
+    color: #000000;
+    
+  
+  }
+
+  @media only screen and (max-width: 600px) {
+    #SearchBar, .VaakunaName {
+      width: 95%;
+      height: 30px;
+    }
+  
+    #SearchBar {
+      vertical-align: middle;
+    }
+  
+    #SearcButton, #ButtonIcon {
+      display: none;
+    }
+  }
+
+  @media only screen and (min-width: 600px) { 
+    #SearchBar, .VaakunaName {
+      width: 92%;
+      height: 30px;
+    }
+  
+    #SearcButton {
+      width: fit-content;
+    }
+  }
+
+  @media only screen and (min-width: 740px) {
+    #SearchBar, .VaakunaName {
+      width: 94%;
+      height: 30px;
+    }
+  
+    #SearchButton {
+      width: fit-content;
+      height: fit-content;
+    }
+  }
+
+  @media only screen and (min-width: 990px) { 
+    #SearchElements {
+      float: right;
+      max-width: 18%;
+      margin-right: 15px;
+    }
+  
+    #SearchBox {
+      border-width: 5px;
+      height: auto;
+      margin: 0px 5px 0px 5px;
+    }
+  
+    #SearchBar, .VaakunaName {
+      width: 80%;
+      height: 20px;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    #SearchElements {
+      float: right;
+      max-width: 13%;
+      margin-right: 20px;
+    }
+  
+    #SearchBox {
+      border-width: 5px;
+      height: auto;
+      margin: 0px 5px 0px 5px;
+    }
+  
+    #SearchBar, .VaakunaName {
+      width: 77%;
+      height: 20px;
+    }
+  }
+
+  @media only screen and (min-width: 1500px) {
+    #SearchBox {
+      text-align: center;
+    }
+  
+    #SearchBar, .VaakunaName {
+      width: 80%;
+      height: 20px;
+    }
+  }

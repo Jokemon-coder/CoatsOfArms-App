@@ -5,20 +5,23 @@ import {SearchBox} from './index.js';
 import {CoatsOfArmsGallery} from './index.js';
 import {Footer} from './index.js';
 import {namesData} from './index.js';
+import { useState } from 'react';
 
 
 
 function App() {
-    
+
+  const [pageLanguage, setLanguage] = useState();    
+  
   return (
 
     <div id='PageDiv'>
       <header>
-        <Header changedLanguage/>
+        <Header language={pageLanguage} changeLanguage={setLanguage} changedLanguage/>
       </header>
       <main id='MainContent'>
       <section id='SearchElements'>
-       <SearchBox placeHolder={"Hae..."} coas={namesData}/>
+       <SearchBox placeHolder={pageLanguage ? "Hae..." : "Search"} coas={namesData}/>
       </section>
       <section>
         <CoatsOfArmsGallery/>

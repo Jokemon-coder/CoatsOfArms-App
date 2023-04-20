@@ -1,0 +1,102 @@
+#PageHeader{
+    width: 100%;
+    background-color: #013220;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  
+  #PageHeader div {
+    text-align: center;
+    align-self: center;
+    color: #FFFFFF;
+  }
+  
+  #PageHeader p {
+    display: inline-block;
+    margin-right: 13px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    background: linear-gradient(360deg, #002F6C, #FFFFFF);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+  }
+
+  #LanguageList {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 10px;
+    list-style: none;
+  
+  }
+
+  .LanguageItem {
+    font-size: 30px;
+    margin: 3px;
+    display: inline-block;
+  }
+
+  .InvisibleClass {
+    display: none;
+  }
+  
+  #LanguageFinnish {
+    background: linear-gradient(120deg, #002F6C, #FFFFFF);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+  }
+  
+  #LanguageEnglish {
+    background: linear-gradient(120deg, #C8102E, #FFFFFF);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+  }
+
+  @media only screen and (min-width: 600px) { 
+    #PageHeader p {
+      align-self: center;
+      font-size: 25px;
+    }
+  
+    .LanguageItem {
+      font-size: 20px;
+    }
+  }
+
+  @media only screen and (min-width: 740px) {
+    #PageHeader p {
+      align-self: center;
+      font-size: 30px;
+    }
+  
+    .LanguageItem {
+      font-size: 25px;
+    }
+  }
+
+  @media only screen and (min-width: 990px) { 
+    #PageHeader p {
+      align-self: center;
+      font-size: 35px;
+    }
+  
+    .LanguageItem {
+      font-size: 27.5px;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    #PageHeader p {
+      align-self: center;
+      font-size: 40px;
+    }
+  
+    .LanguageItem {
+      font-size: 30px;
+    }
+  }

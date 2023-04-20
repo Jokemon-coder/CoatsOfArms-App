@@ -1,3 +1,5 @@
+import React from "react";
+import "./Footer.css";
 function Footer() {
     //Footer with copyright and the current year, so it updates yearly
     let current = new Date();

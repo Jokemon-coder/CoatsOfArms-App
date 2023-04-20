@@ -1,7 +1,8 @@
 //useState to modify state of the array containing coats of arms
 import React, { useState } from 'react'; 
-import SortCoatsOfArms from '../SortCOA';
+import SortCoatsOfArms from '../Sort/SortCOA';
 import coaArray1 from '../dataStuff/coaData.js';
+import "./COA.css";
 
 function ArrayOfCoa () {
     //ceoArray used to be here, got moved to coaData.js

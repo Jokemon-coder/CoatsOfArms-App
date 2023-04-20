@@ -4,11 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-export {default as Header} from './components/Header.js';
-export {default as SearchBox} from './components/SearchBox.js';
-export {default as CoatsOfArmsGallery} from './components/CoatsOfArmsGallery.js';
-export {default as SortCoatsOfArms} from './components/SortCOA.js';
-export {default as Footer} from './components/Footer.js';
+export {default as Header} from './components/Header/Header.js';
+export {default as SearchBox} from './components/Searchbox/SearchBox.js';
+export {default as CoatsOfArmsGallery} from './components/CoatsOfArms/CoatsOfArmsGallery.js';
+export {default as SortCoatsOfArms} from './components/Sort/SortCOA.js';
+export {default as Footer} from './components/Footer/Footer.js';
 export {default as namesData} from "./components/dataStuff/nameData.json";
 
 

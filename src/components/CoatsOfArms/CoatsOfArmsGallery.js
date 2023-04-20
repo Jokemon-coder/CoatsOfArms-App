@@ -1,4 +1,5 @@
-import CoaArray from './CoatsOfArms/COA_Array.js';
+import CoaArray from './COA_Array.js';
+import "./COA.css";
 
 function COAGallery () {
     return (
