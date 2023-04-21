@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/CoatsOfArms-App/static/css/main.ecc38b3e.css",
-    "main.js": "/CoatsOfArms-App/static/js/main.6e1c903d.js",
+    "main.css": "/CoatsOfArms-App/static/css/main.6f0e69e9.css",
+    "main.js": "/CoatsOfArms-App/static/js/main.7bd921d1.js",
     "static/js/787.28cb0dcd.chunk.js": "/CoatsOfArms-App/static/js/787.28cb0dcd.chunk.js",
     "index.html": "/CoatsOfArms-App/index.html",
-    "main.ecc38b3e.css.map": "/CoatsOfArms-App/static/css/main.ecc38b3e.css.map",
-    "main.6e1c903d.js.map": "/CoatsOfArms-App/static/js/main.6e1c903d.js.map",
+    "main.6f0e69e9.css.map": "/CoatsOfArms-App/static/css/main.6f0e69e9.css.map",
+    "main.7bd921d1.js.map": "/CoatsOfArms-App/static/js/main.7bd921d1.js.map",
     "787.28cb0dcd.chunk.js.map": "/CoatsOfArms-App/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecc38b3e.css",
-    "static/js/main.6e1c903d.js"
+    "static/css/main.6f0e69e9.css",
+    "static/js/main.7bd921d1.js"
   ]
 }
