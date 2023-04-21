@@ -34,4 +34,4 @@ All of these I considered in my initial pre-development planning and all of them
 
 ### Known bugs
 
-- The search bar button does not fire off focus to the search bar itself on first click due to "null". Gives an error into the console. Works fine after the first click however. 
+- Background image adjusts in relation to other elements, might fix it at some point
