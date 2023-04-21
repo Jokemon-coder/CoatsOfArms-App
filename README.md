@@ -14,6 +14,8 @@ It's being deployed with Github Pages and you can visit it here:
 
 https://jokemon-coder.github.io/CoatsOfArms-App/
 
+Do note that at the moment it is quite slow on first launch as it loads everything in. I am going to try and optimize it more in the future. I am publishing it now in this state so it can at least be viewed in it's intended final look and funcionality.
+
 ## Functionality and features
 
 The initial plan was to create an app using React that showcases the Finnish coats of arms. I believe I fulfilled my vision for the finished application exactly as I had
@@ -30,6 +32,6 @@ thought it should look and function. The functionality on the page is as follows
 
 All of these I considered in my initial pre-development planning and all of them were implemented in a way that coincide with my initial writings from the planning phase.
 
-### Known bugs on release
+### Known bugs
 
 - The search bar button does not fire off focus to the search bar itself on first click due to "null". Gives an error into the console. Works fine after the first click however. 
