@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/CoatsOfArms-App/static/css/main.6f0e69e9.css",
-    "main.js": "/CoatsOfArms-App/static/js/main.7bd921d1.js",
+    "main.js": "/CoatsOfArms-App/static/js/main.78579d4e.js",
     "static/js/787.28cb0dcd.chunk.js": "/CoatsOfArms-App/static/js/787.28cb0dcd.chunk.js",
     "index.html": "/CoatsOfArms-App/index.html",
     "main.6f0e69e9.css.map": "/CoatsOfArms-App/static/css/main.6f0e69e9.css.map",
-    "main.7bd921d1.js.map": "/CoatsOfArms-App/static/js/main.7bd921d1.js.map",
+    "main.78579d4e.js.map": "/CoatsOfArms-App/static/js/main.78579d4e.js.map",
     "787.28cb0dcd.chunk.js.map": "/CoatsOfArms-App/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6f0e69e9.css",
-    "static/js/main.7bd921d1.js"
+    "static/js/main.78579d4e.js"
   ]
 }
