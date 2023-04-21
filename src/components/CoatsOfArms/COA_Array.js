@@ -5,7 +5,6 @@ import coaArray1 from '../dataStuff/coaData.js';
 import "./COA.css";
 
 function ArrayOfCoa () {
-    //ceoArray used to be here, got moved to coaData.js
 
     /*Mapped coaArray in which the keys and IDs are defined based on the index
     of the item within the array. This mapped version is therefor rendered
