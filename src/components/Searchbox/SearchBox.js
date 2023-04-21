@@ -109,7 +109,7 @@ function SearchBox ({placeHolder}) {
             var searchedCoaChild = searchedCoa.firstElementChild;
             var searchedCoaImg = searchedCoaChild.firstElementChild;
             searchedCoa.scrollIntoView();
-            searchedCoaImg.classList.add("ImgBorder"); 
+            //searchedCoaImg.classList.add("ImgBorder"); 
 
             }
         }

@@ -16,6 +16,7 @@ function Header (props) {
     const [headerTitle, setTitle] = useState();
     const [searchTitle, setSearch] = useState();
 
+    //useEffect so it renders the element again when isFinnish has been changed and based on if it is true or false
     useEffect(() => {
         if(isFinnish === true)
         {

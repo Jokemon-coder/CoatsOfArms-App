@@ -52,7 +52,6 @@
     display: flex;
     margin: 2px;
     height: auto;
-    border: none;
   }
   
   .SearchBorder {
@@ -128,7 +127,7 @@
       width: 90px;
   
     }
-  
+
     .ImgBorder {
       border: solid 4px #FFFFFF;
     }
