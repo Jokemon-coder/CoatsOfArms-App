@@ -56,7 +56,7 @@ function ArrayOfCoa () {
     )));
 
     function MouseHoverEffect(element){
-        element.target.classList.add("ImgBorder");
+        element.target.classList.toggle("ImgBorder");
     };
 
     function RemoveMouseHoverEffect(element) {

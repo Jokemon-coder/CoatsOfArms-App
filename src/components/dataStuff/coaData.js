@@ -1235,6 +1235,4 @@ var coaArray = [//All coats of arms as elements within an array
 
 ]
 
-//this.href.split('/').pop().split('_')[0];
-
 export default coaArray;

@@ -106,10 +106,9 @@ function SearchBox ({placeHolder}) {
             The same border is used when hovering over the coa. 
             */      
             var searchedCoa = document.getElementById(namesData.indexOf(coa));
-            var searchedCoaChild = searchedCoa.firstElementChild;
-            var searchedCoaImg = searchedCoaChild.firstElementChild;
+            var searchedCoaImg = searchedCoa.firstElementChild.firstElementChild.firstElementChild;
             searchedCoa.scrollIntoView();
-            searchedCoaImg.classList.add("ImgBorder"); 
+            searchedCoaImg.classList.toggle("ImgBorder"); 
 
             }
         }
