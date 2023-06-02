@@ -35,3 +35,4 @@ All of these I considered in my initial pre-development planning and all of them
 ### Known bugs
 
 - Background image adjusts in relation to other elements, might fix it at some point
+- Github pages is trying to GET "Mänttä.png", which does not exist in coats of arms images, resulting in an error in console. Need to look into this further. It does not however affect the actual site itself.
